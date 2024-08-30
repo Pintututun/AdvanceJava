@@ -1,0 +1,10 @@
+
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(›Þ ºHô)RMINORZ
+CODE_SMELL
+s	java:S125"<This block of commented-out lines of code should be removed.(ÇªŸ®úÿÿÿÿ8“—ô„¬1Hˆ,RMAJORZ
+CODE_SMELL
+a
+java:S1128"/Remove this unused import 'java.sql.ResultSet'.(ˆóÚw8Ýûô„¬1H‹,RMINORZ
+CODE_SMELL
+}
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(¯µÝ¶8Ý¸¨‚¬1H¶*RBLOCKERZBUG

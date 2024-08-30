@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Marks</title>
+<style>
+.pa {
+	justify-content: center;
+	text-align: center;
+	margin-top: 40px;
+	background-color: yellow;
+}
+
+form {
+	font-size: 35px;
+	padding: 5px;
+}
+input[type="text"]
+{
+font-size: 25px;
+padding:3px;
+}
+.inn{
+font-size:25px;
+
+}
+h1{
+text-align: center;
+}
+
+</style>
+</head>
+<body>
+
+	
+	<div class="ma">
+	<h1>Marks Page</h1>
+		<form action="fill" method="post">
+			<div class="pa">
+			<div class="pr">
+			<pre>
+Student RollNo:<input type="text" name="roll" pattern="[a-zA-Z0-9]{5}" placeholder="Enter roll number of 5 characters" required>
+Student Name  :<input type="text" name="sname" pattern="^[a-zA-Z\- ']+$" placeholder="Enter name" required>
+Student Branch:<input type="text" name="branch" placeholder="Enter branch" required>
+			</pre>
+			</div>
+				<pre class="ro">
+Math Marks     :<input type="text" name="math" pattern="^(?:100|\d{1,2})$" placeholder="Enter number from 1 to 100" required>
+Chemistry Marks:<input type="text" name="chem" pattern="^(?:100|\d{1,2})$" placeholder="Enter number from 1 to 100" required>
+Physics Marks  :<input type="text" name="phy" pattern="^(?:100|\d{1,2})$" placeholder="Enter number from 1 to 100" required>
+English Marks  :<input type="text" name="eng" pattern="^(?:100|\d{1,2})$" placeholder="Enter number from 1 to 100" required>
+Biology Marks  :<input type="text" name="bio" pattern="^(?:100|\d{1,2})$" placeholder="Enter number from 1 to 100" required>
+<input type="submit" value="Submit" class="inn"><br>
+</pre>
+			</div>
+
+		</form>
+	</div>
+</body>
+</html>

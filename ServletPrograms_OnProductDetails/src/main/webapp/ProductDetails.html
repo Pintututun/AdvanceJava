@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Use vh (viewport height) for full height */
+    margin: 0; /* Remove default margin */
+    background-color: #f4f4f4;
+}
+
+form {
+    text-align: center;
+    width: 100%; /* Make the form take up the full width */
+    max-width: 400px; /* Limit the maximum width of the form */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+fieldset {
+    background-color: yellow;
+    text-align: center; /* Center the content horizontally */
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+}
+</style>
+</head>
+<body>
+    <form action="dis" method="post">
+        <h2>Enter the Product Details</h2>
+        <fieldset>
+            ProductCode  :<input type="text" name="pcode" required="required"><br>
+            ProductName  :<input type="text" name="pname" required="required"><br>
+            ProductPrice :<input type="text" name="pprice" required="required"><br>
+            ProductQty   :<input type="text" name="pqty" required="required"><br>
+            <input type="submit" value="Click">
+        </fieldset>
+    </form>
+</body>
+</html>

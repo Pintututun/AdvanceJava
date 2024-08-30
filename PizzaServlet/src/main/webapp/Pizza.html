@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<h2>Order Your Pizza Here</h2>
+	<form action="dis" method="post">
+		<table>
+			<thead></thead>
+			<tr>
+				<td><b>Name:</b></td>
+				<td><input type="text" name="cName" required></td>
+			</tr>
+			<tr>
+				<td><b>Select the Crust:</b></td>
+				<td><select name="crust" required>
+						<option value="" disabled selected>Select Crust</option>
+						<option value="Deep Crust">Deep Crust</option>
+						<option value="Stuffed Crust">Stuffed Crust</option>
+						<option value="Thin Crust">Thin Crust</option>
+						<option value="Thick Crust">Thick Crust</option>
+						<option value="Cheese Crust">Cheese Crust</option>
+						<option value="Flat Bread Crust">Flat Bread Crust</option>
+						<option value="Cracker Crust">Cracker Crust</option>
+				</select></td>
+			</tr>
+		</table>
+		<table>
+			<tr>
+				<td><b>Toppings:</b></td>
+			</tr>
+			<tr>
+				<td><input type="checkbox" name="tops" value="Peas">Peas</td>
+			</tr>
+			<tr>
+				<td><input type="checkbox" name="tops" value="Panner">Panner</td>
+			</tr>
+			<tr>
+				<td><input type="checkbox" name="tops" value="Red Pepper">Red
+					Pepper</td>
+			</tr>
+			<tr>
+				<td><input type="checkbox" name="tops" value="Pine Apple">Pine
+					Apple</td>
+			</tr>
+			<tr>
+				<td><input type="checkbox" name="tops" value="Onion">Onion</td>
+			</tr>
+			<tr>
+				<td><input type="checkbox" name="tops" value="Tomato">Tomato</td>
+			</tr>
+			<tr>
+				<td><input type="checkbox" name="tops" value="greens">greens</td>
+			</tr>
+
+		</table>
+		<table>
+			<tr>
+				<td><b>Select 1 Free Appetizer</b></td>
+				<td><input type="radio" name="free" required
+					value="Garlic Bread">Garlic Bread</td>
+				<td><input type="radio" name="free" requied
+					value="Cheese Garlic Bread">Cheese Garlic Bread</td>
+				<td><input type="radio" name="free" required value="Veg Soup">Veg
+					Soup</td>
+				<td><input type="radio" name="free" required
+					value="Veg Sandwhich">Veg SandWich</td>
+			</tr>
+
+		</table>
+		<h3>Address</h3>
+		<textarea name="Address" id="" cols="30" rows="2" required></textarea>
+		<table>
+			<tr>
+				<td><b>Credit Card</b></td>
+				<td><input type="radio" name="card" value="Visa" required>Visa</td>
+				<td><input type="radio" name="card" value="Master Card"
+					required>Master Card</td>
+				<td><input type="radio" name="card" value="American Express"
+					required>American Express</td>
+			</tr>
+		</table>
+		<b>Credit Card Number:</b><input type="password" required id="fC"
+			name="CardNum"><b>Repeat Credit Card Number</b> <input
+			type="password" required id="sC"><span id="msg"></span><br>
+		<br>
+		<input type="submit" value="Order Pizza">
+	</form>
+</body>
+</html>

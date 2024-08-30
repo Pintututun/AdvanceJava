@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+fieldset {
+	margin: 100px auto;
+	border: 3px solid black;
+	border-radius: 20px;
+	width: 300px;
+}
+legend
+{
+text-align: center;
+color: white;
+font-size: 30px;
+}
+tr, td {
+	text-align: centre;
+	padding: 5px;
+	font-size: 40px;
+	font-style: italic;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+	color: white;
+}
+input[type=text]
+{
+width: 200px;
+height: 50px;
+}
+input[type=submit]
+{
+width:100px;
+height:40px;
+}
+body {
+	background-image: url("hotel1.jpg");
+	background-size: cover;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+tr td a {
+    color: white;
+    text-decoration: none; /* Remove underline from links */
+}
+</style>
+</head>
+
+<body>
+	<form action="login" method="post">
+	<fieldset>
+	<legend>Welcome ...Please fill</legend>
+		<table>
+			
+			<tr>
+				<td>UserName:</td>
+				<td><input type="text" name="user" required="required">
+			</tr>
+			<tr>
+				<td>Password:</td>
+				<td><input type="text" name="pword" required="required">
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type="submit" value="Submit"></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><a href="Register.html">New User?</a></td>
+		</table>
+		</fieldset>
+	</form>
+</body>
+</html>

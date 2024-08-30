@@ -1,0 +1,41 @@
+Write a Program in Java to Perform Serialization and De-serialization operation on HashSet Object. 
+
+Take a BLC class Player
+
+Instance variables 
+
+playerNumber – private – Integer 
+
+playerName – private – String 
+
+playerPrice – private – Double 
+
+dateOfAuction – private – Date 
+
+Take a parameterized constructor to initialize the instance variables 
+
+Take a Method getPlayerObject() 
+
+Method Name - getPlayerObject () 
+
+Parameter - No Parameter 
+
+Access Modifier - public and static 
+
+Return type - Player 
+
+This method should take the Player data from client, create and return Player object from this method. 
+
+Override toString() method to print Player class properties or variables. 
+
+Take an ELC class StoreObject Inside the main method create a for loop which will read the Player 
+
+object with user choice and Store the Player object to a file called Player.txt Take another ELC class 
+
+RetrieveObject This class will retrieve the Player Object from file and print the Player information data.
+
+
+
+
+
+

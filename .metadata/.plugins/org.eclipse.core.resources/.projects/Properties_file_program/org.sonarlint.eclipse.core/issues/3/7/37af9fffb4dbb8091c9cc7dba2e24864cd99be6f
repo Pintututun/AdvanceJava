@@ -1,0 +1,25 @@
+
+x	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ûÔı°HùRMINORZ
+CODE_SMELL
+{
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(¶ıæ–ıÿÿÿÿHúRBLOCKERZBUG
+i	java:S106"9Replace this use of System.out or System.err by a logger.(úü„²øÿÿÿÿHûRMAJORZ
+CODE_SMELL
+d	java:S106"9Replace this use of System.out or System.err by a logger.(Ÿï ŠHüRMAJORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(ïÄ‡şÿÿÿÿHıRMAJORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(è¤úúıÿÿÿÿHşRMAJORZ
+CODE_SMELL
+c	java:S106)"9Replace this use of System.out or System.err by a logger.(²´ÅsHÿRMAJORZ
+CODE_SMELL
+i	java:S106/"9Replace this use of System.out or System.err by a logger.(•ä‹‹şÿÿÿÿH€RMAJORZ
+CODE_SMELL
+d	java:S1063"9Replace this use of System.out or System.err by a logger.(Î·ğæHRMAJORZ
+CODE_SMELL
+i	java:S1065"9Replace this use of System.out or System.err by a logger.(ôœœ‰øÿÿÿÿH‚RMAJORZ
+CODE_SMELL
+i	java:S1069"9Replace this use of System.out or System.err by a logger.(ÑÙ©àüÿÿÿÿHƒRMAJORZ
+CODE_SMELL
+i	java:S106="9Replace this use of System.out or System.err by a logger.(û¢“£ÿÿÿÿÿH„RMAJORZ
+CODE_SMELL

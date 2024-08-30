@@ -1,0 +1,17 @@
+INDEX VERSION 1.132
+E:\AdvanceJava\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\235146815.index
+\HotelLivya_ServletApp\src\main\java
+E:\AdvanceJava\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3756110026.index
+\PizzaServlet\src\main\java
+E:\AdvanceJava\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3619693005.index
+\BankApplicationUsingServlet\src\main\java
+E:\AdvanceJava\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\694165440.index
+\App_DemostratingUseOfCookies\src\main\java
+E:\AdvanceJava\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2189288606.index
+\BankApplicationUsingServlet\src\main\java
+E:\AdvanceJava\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\791808293.index
+\HotelLivya_ServletApp\src\main\java
+E:\AdvanceJava\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1830567123.index
+\ServletApplication_UserApp\src\main\java
+E:\AdvanceJava\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\255643794.index
+\App_DemostratingUseOfCookies\src\main\java

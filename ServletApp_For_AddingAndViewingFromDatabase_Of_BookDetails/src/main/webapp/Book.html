@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+pre{
+display:flex;
+justify-content:center;
+align-items: center;
+font-size: 30px;
+min-height:100vph;
+
+}
+form{
+color:white;
+border: 5px solid red;
+border-radius: 5px;
+padding:10px;
+background-color:blue;
+
+}
+.large-font{
+font-size:20px;
+padding:10px;
+}
+.large-input{
+width:400px;
+height:30px;
+font-size:20px;
+}
+</style>
+</head>
+<body>
+<pre>
+<form action="add" method="post">
+          Welcome,Sir or Madam<br>
+BookCode    :<input type="text" name="code" class="large-input" required><br>
+BookName    :<input type="text" name="bname" class="large-input" required><br>
+BookAuthor  :<input type="text" name="bauthor"  class="large-input" required><br>
+BookPrice   :<input type="text" name="bprice" class="large-input" required><br>
+BookQuantity:<input type="text" name="bqty" class="large-input" required><br>
+                <input type="submit" value="Submit" class="large-font">
+</pre>
+
+</form>
+</body>
+</html>

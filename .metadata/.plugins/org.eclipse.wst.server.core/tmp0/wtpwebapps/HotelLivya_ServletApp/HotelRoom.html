@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+ body {
+    margin: 0;
+    padding: 0;
+    background-image: url("HotelRoom.jpg");
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+
+  .form-container {
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 3px solid black;
+    border-radius: 20px;
+  }
+
+  legend {
+    text-align: center;
+    color: black;
+    font-size: 30px;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  tr, td {
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+    font-size: 40px;
+    font-style: italic;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: blue;
+  }
+
+  tr td a {
+    color: blue;
+    text-decoration: none;
+  }
+
+  input[type="checkbox"] {
+    width: 30px;
+    height: 30px;
+  }
+
+  input[type="number"] {
+    width: 70px;
+    height: 40px;
+    font-size: 24px;
+  }
+
+  input[type="submit"] {
+    width: 150px;
+    height: 50px;
+    font-size: 24px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+</style>
+</head>
+<body>
+	<div class="form-container">
+		<form action="room" method="post">
+			<fieldset>
+				<legend style="font-size:50px">Category</legend>
+				<table>
+					<tr>
+						<td>Sweet Room</td>
+						<td><a href="preview1.html">Preview</a></td>
+					</tr>
+					<tr>
+						<td>Deluxe Single Room</td>
+						<td><a href="preview2.html">Preview</a></td>
+					</tr>
+					<tr>
+						<td>Deluxe Double Rooms</td>
+						<td><a href="preview3.html">Preview</a></td>
+					</tr>
+				</table>
+			</fieldset>
+		</form>
+	</div>
+</body>
+</html>

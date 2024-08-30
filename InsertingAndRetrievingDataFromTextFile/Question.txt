@@ -1,0 +1,14 @@
+
+Note:Complete all jdbc application using properties file.
+Program01:JDBC program to Create table Player_info with column name pId,pName,pImage pdob.(U can create table from database)
+Program_02:JDBC program to insert Player details into database table Player_info.
+Table:Player_info
+      Table columns:pId,pName,pImage,pdob.
+Program_03:JDBC program to retrieve Player details from database table.
+
+Program04:
+Step01=>Create Table:emp_info
+Columns:empId,empName,empAddress,empMailId,empPhNo,empResume(text file).
+Step02:Write a JDBC program to insert employee details into database table.
+
+Program05:Write a JDBC program to retrieve empResume based on empPhNo and store that resume(file) at any location.

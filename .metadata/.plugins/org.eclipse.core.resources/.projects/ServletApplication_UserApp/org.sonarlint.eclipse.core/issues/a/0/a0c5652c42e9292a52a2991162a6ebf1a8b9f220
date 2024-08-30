@@ -1,0 +1,7 @@
+
+}
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Äö·œ8¥áå«1Hî(RBLOCKERZBUG
+
+java:S1104
+"NMake ub a static final constant or non-public and provide accessors if needed.(¯ã”ï8¥áå«1Hí(RMINORZ
+CODE_SMELL

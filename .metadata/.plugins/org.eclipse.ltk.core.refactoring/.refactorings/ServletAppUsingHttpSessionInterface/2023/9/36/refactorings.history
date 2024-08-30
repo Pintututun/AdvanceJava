@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;ServletAppUsingHttpSessionInterface/src/main/webapp/Session.html&apos; to &apos;Details.html&apos;" description="Rename resource &apos;Session.html&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/Session.html" name="Details.html" stamp="1694060658152" updateReferences="true"/>
+</session>

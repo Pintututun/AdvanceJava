@@ -1,0 +1,18 @@
+CREATE OR REPLACE PROCEDURE RetrieveAllDetails55 (
+    results OUT SYS_REFCURSOR
+) IS
+BEGIN
+    OPEN results FOR
+    SELECT
+        cd.cname AS name,
+        ca.city,
+        ca.state,
+        ca.pincode AS pcode,
+        cc.mid,
+        cc.phno AS pno
+    FROM
+        CustData55 cd
+        JOIN CustAddress55 ca ON cd.cid = ca.cid
+        JOIN CustContact55 cc ON cd.cid = cc.cid;
+END;
+/

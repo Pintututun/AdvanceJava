@@ -1,0 +1,16 @@
+
+k
+java:S1161":Add the "@Override" annotation above this method signature(ş³‚”ûÿÿÿÿH‘0RMAJORZ
+CODE_SMELL
+‚
+java:S1989+"SHandle the following exception that could be thrown by "sendRedirect": IOException.(’«›„H–0RMINORZVULNERABILITY
+p	java:S106)"9Replace this use of System.out or System.err by a logger.(èÅ‡Ÿûÿÿÿÿ8×ä¹ª­1H•0RMAJORZ
+CODE_SMELL
+
+java:S1989%"YHandle the following exception that could be thrown by "parseInt": NumberFormatException.(ÎÈü°ÿÿÿÿÿH”0RMINORZVULNERABILITY
+k	java:S106"9Replace this use of System.out or System.err by a logger.(×³ª¨8Ä—‘ª­1H“0RMAJORZ
+CODE_SMELL
+ˆ
+java:S1989 "YHandle the following exception that could be thrown by "parseInt": NumberFormatException.(–…È¡H0RMINORZVULNERABILITY
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(é†­ûÿÿÿÿH0RMINORZ
+CODE_SMELL

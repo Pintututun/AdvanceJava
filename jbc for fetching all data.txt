@@ -1,0 +1,55 @@
+import java.sql.CallableStatement;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+
+public class Main {
+    public static void main(String[] args) {
+        String jdbcUrl = "jdbc:oracle:thin:@//localhost:1521/your_database";
+        String user = "your_username";
+        String password = "your_password";
+
+        try {
+            Connection connection = DriverManager.getConnection(jdbcUrl, user, password);
+
+            // Prepare the PL/SQL call
+            String call = "{ call RetrieveAllDetails55(?) }";
+            CallableStatement callableStatement = connection.prepareCall(call);
+
+            // Register output parameter
+            callableStatement.registerOutParameter(1, oracle.jdbc.OracleTypes.CURSOR);
+
+            // Execute the procedure
+            callableStatement.execute();
+
+            // Retrieve the result set
+            ResultSet resultSet = (ResultSet) callableStatement.getObject(1);
+
+            // Process the result set
+            while (resultSet.next()) {
+                String name = resultSet.getString("name");
+                String city = resultSet.getString("city");
+                String state = resultSet.getString("state");
+                int pincode = resultSet.getInt("pcode");
+                String contact = resultSet.getString("mid");
+                int phoneNumber = resultSet.getInt("pno");
+
+                // Do something with the retrieved details
+                System.out.println("Name: " + name);
+                System.out.println("City: " + city);
+                System.out.println("State: " + state);
+                System.out.println("Pincode: " + pincode);
+                System.out.println("Contact: " + contact);
+                System.out.println("Phone Number: " + phoneNumber);
+                System.out.println("==============================");
+            }
+
+            // Close the resources
+            resultSet.close();
+            callableStatement.close();
+            connection.close();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+}

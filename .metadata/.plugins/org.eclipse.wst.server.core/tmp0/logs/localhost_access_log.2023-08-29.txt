@@ -1,0 +1,17 @@
+127.0.0.1 - - [29/Aug/2023:10:15:03 +0530] "GET / HTTP/1.1" 404 751
+127.0.0.1 - - [29/Aug/2023:10:36:45 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [29/Aug/2023:10:36:45 +0530] "GET /ServletApp_ValidatingLogin/ HTTP/1.1" 200 302
+0:0:0:0:0:0:0:1 - - [29/Aug/2023:10:36:45 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [29/Aug/2023:10:36:57 +0530] "POST /ServletApp_ValidatingLogin/display HTTP/1.1" 404 789
+127.0.0.1 - - [29/Aug/2023:10:38:09 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [29/Aug/2023:10:38:09 +0530] "GET /ServletApp_ValidatingLogin/ HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [29/Aug/2023:10:38:26 +0530] "POST /ServletApp_ValidatingLogin/display HTTP/1.1" 404 785
+127.0.0.1 - - [29/Aug/2023:10:39:58 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [29/Aug/2023:10:39:58 +0530] "GET /ServletApp_ValidatingLogin/ HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [29/Aug/2023:10:40:05 +0530] "POST /ServletApp_ValidatingLogin/display HTTP/1.1" 404 785
+127.0.0.1 - - [29/Aug/2023:10:40:49 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [29/Aug/2023:10:40:50 +0530] "GET /ServletApp_ValidatingLogin/ HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [29/Aug/2023:10:40:55 +0530] "POST /ServletApp_ValidatingLogin/display HTTP/1.1" 200 33
+127.0.0.1 - - [29/Aug/2023:10:41:55 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [29/Aug/2023:10:41:55 +0530] "GET /ServletApp_ValidatingLogin/ HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [29/Aug/2023:10:42:00 +0530] "POST /ServletApp_ValidatingLogin/display HTTP/1.1" 200 51

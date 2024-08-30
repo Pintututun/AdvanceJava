@@ -1,0 +1,16 @@
+
+Z
+java:S1481"'Remove this unused "fb" local variable.(±ãÅÍ8¹á©«­1Hç6RMINORZ
+CODE_SMELL
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(é†­ûÿÿÿÿHå6RMINORZ
+CODE_SMELL
+œ
+java:S1989"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(î±ä·ÿÿÿÿÿ8ŒŒÑ«­1Hë6RMINORZVULNERABILITY
+i
+java:S1128"6Remove this unused import 'oracle.net.ns.SessionAtts'.(¶‡öÛ8¹á©«­1Hé6RMINORZ
+CODE_SMELL
+i
+java:S1854"6Remove this useless assignment to local variable "fb".(±ãÅÍ8¹á©«­1Hæ6RMAJORZ
+CODE_SMELL
+—
+java:S1989$"aHandle the following exceptions that could be thrown by "include": ServletException, IOException.(ÈŒ–8ïĞÍ¨­1Hä6RMINORZVULNERABILITY

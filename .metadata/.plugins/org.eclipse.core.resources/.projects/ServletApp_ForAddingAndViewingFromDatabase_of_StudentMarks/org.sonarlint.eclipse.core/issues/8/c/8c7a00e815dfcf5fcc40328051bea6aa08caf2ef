@@ -1,0 +1,17 @@
+
+s	java:S125 "<This block of commented-out lines of code should be removed.(ÍÜÚúÿÿÿÿ8ºŒâÕ£1H©RMAJORZ
+CODE_SMELL
+µ
+java:S1186#"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(©ÇÿšÿÿÿÿÿHÄRCRITICALZ
+CODE_SMELL
+d
+java:S1905",Remove this unnecessary cast to "MarksBean".(•ÏŒƒşÿÿÿÿ8ºŒâÕ£1H§RMINORZ
+CODE_SMELL
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÚÓÚHÁRMINORZ
+CODE_SMELL
+f
+java:S1905".Remove this unnecessary cast to "StudentBean".(’õ×œøÿÿÿÿ8ºŒâÕ£1H¥RMINORZ
+CODE_SMELL
+°
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.( ÜóHÂRCRITICALZ
+CODE_SMELL

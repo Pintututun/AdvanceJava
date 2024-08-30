@@ -1,0 +1,12 @@
+
+m
+java:S1161":Add the "@Override" annotation above this method signature(û£ÇŸ8°÷ÉÈ¦1H¬RMAJORZ
+CODE_SMELL
+‹
+java:S1989"PHandle the following exception that could be thrown by "getWriter": IOException.(©Ã ûøÿÿÿÿ8°÷ÉÈ¦1H®RMINORZVULNERABILITY
+\
+java:S1481")Remove this unused "name" local variable.(Û÷“ë8°÷ÉÈ¦1H¯RMINORZ
+CODE_SMELL
+k
+java:S1854"8Remove this useless assignment to local variable "name".(Û÷“ë8°÷ÉÈ¦1H«RMAJORZ
+CODE_SMELL

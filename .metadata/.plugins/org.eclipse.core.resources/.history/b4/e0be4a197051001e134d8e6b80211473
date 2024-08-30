@@ -1,0 +1,40 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1" import java.util.*;
+    %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+fieldset {
+	margin-top:100px;
+	margin-left:600px;
+	
+}
+
+</style>
+</head>
+<body>
+	<h2>
+		<%
+		out.println((String) request.getAttribute("msg"));
+		%>
+	</h2>
+	<fieldset>
+		<legend>Category</legend>
+		<table>
+			<tr>
+				<td>1:</td>
+				<td><a href="Food.html">Foods</a></td>
+			</tr>
+			<tr>
+				<td>2:</td>
+				<td><a href="Hotel.html">Hotel Rooms</a></td>
+			</tr>
+
+		</table>
+	</fieldset>
+
+</body>
+</html>

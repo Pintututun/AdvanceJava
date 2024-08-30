@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Exit Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: url("Desserts.jpg");
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: #fff;
+        }
+
+        h1 {
+            font-size: 36px;
+        }
+
+        p {
+            font-size: 18px;
+            margin: 20px 0;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Thank you for visiting our website!</h1>
+    <p>Before you go, would you like to receive updates and special offers?</p>
+    <button id="exitButton">Yes</button>
+    <button id="stayButton">No, thanks</button>
+
+    <script>
+        // Add an event listener to detect when the user leaves the page
+        window.addEventListener("beforeunload", function (e) {
+            // Display a confirmation message
+            e.returnValue = "Are you sure you want to leave?";
+        });
+
+        // Add an event listener to the "Yes" button
+        document.getElementById("exitButton").addEventListener("click", function () {
+            // You can redirect the user to another page here, e.g., a newsletter signup page
+            // window.location.href = "newsletter_signup.html";
+            
+            // For this example, we'll just close the window
+            window.close();
+        });
+
+        // Add an event listener to the "No, thanks" button
+        document.getElementById("stayButton").addEventListener("click", function () {
+            // The user chose to stay, no further action needed
+        });
+    </script>
+</body>
+</html>

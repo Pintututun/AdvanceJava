@@ -1,0 +1,30 @@
+
+Š
+java:S1104"RMake amount a static final constant or non-public and provide accessors if needed.(”ŒÌ“üÿÿÿÿ8¸‚õ¬1Hæ)RMINORZ
+CODE_SMELL
+‘
+java:S1104"YMake transactionId a static final constant or non-public and provide accessors if needed.(”ŒÌ“üÿÿÿÿ8¸‚õ¬1Hç)RMINORZ
+CODE_SMELL
+i
+java:S1135"2Complete the task associated to this TODO comment.(ƒŠ® úÿÿÿÿ8¸‚õ¬1Hğ)RINFOZ
+CODE_SMELL
+Œ
+java:S1104"YMake accHolderName a static final constant or non-public and provide accessors if needed.( Ì¦¯8¸‚õ¬1Hã)RMINORZ
+CODE_SMELL
+^
+java:S1659"+Declare "accHolderName" on a separate line.( Ì¦¯8¸‚õ¬1Hè)RMINORZ
+CODE_SMELL
+„
+java:S1659"LDeclare "transactionTime" and all following declarations on a separate line.(”ŒÌ“üÿÿÿÿ8¸‚õ¬1Hê)RMINORZ
+CODE_SMELL
+„
+java:S1104"QMake accno a static final constant or non-public and provide accessors if needed.( Ì¦¯8¸‚õ¬1Hâ)RMINORZ
+CODE_SMELL
+
+java:S1104"VMake accBalance a static final constant or non-public and provide accessors if needed.(”ŒÌ“üÿÿÿÿ8¸‚õ¬1Hä)RMINORZ
+CODE_SMELL
+“
+java:S1104"[Make transactionTime a static final constant or non-public and provide accessors if needed.(”ŒÌ“üÿÿÿÿ8¸‚õ¬1Hå)RMINORZ
+CODE_SMELL
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(›Ş ºHÕ)RMINORZ
+CODE_SMELL

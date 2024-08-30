@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>BookDetails</title>
+<style>
+ body {
+	display: flex;
+	justify-content: centre;
+	align-items: centre;
+	min-height: 10vh;
+	margin: 0;
+		
+} 
+
+ pre {
+
+	height: 200px ;
+	width:500px;
+	padding: 10px;
+	margin-right:70px;
+	text-align: center;
+
+} 
+/* form{
+text-align:centre;
+} */
+#preClr{
+background-color: yellow;
+
+}
+h2{
+    text-align: center;
+}
+</style>
+</head>
+<body>
+	<form action="dis" method="post">
+		<h2>Enter The Book Details</h2>
+     <pre id="preClr">
+BookCode  :<input type="text" name="bcode" required="required"><br> 
+BookName  :<input type="text" name="bname" required="required"><br> 
+BookAuthor:<input type="text" name="bauthor" required="required"><br> 
+BookPrice :<input type="text" name="bprice" required="required"><br> 
+BookQty   :<input type="text" name="bqty" required="required"><br>
+<input type="Submit" value="Click">
+		</pre>
+
+	</form>
+</body>
+</html>

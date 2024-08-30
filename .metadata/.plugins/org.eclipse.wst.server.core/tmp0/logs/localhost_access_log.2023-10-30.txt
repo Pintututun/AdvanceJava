@@ -1,0 +1,6 @@
+127.0.0.1 - - [30/Oct/2023:11:17:24 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [30/Oct/2023:11:17:24 +0530] "GET /HotelLivya_ServletApp/ HTTP/1.1" 200 1133
+0:0:0:0:0:0:0:1 - - [30/Oct/2023:11:17:24 +0530] "GET /HotelLivya_ServletApp/hotel.jpg HTTP/1.1" 200 308484
+0:0:0:0:0:0:0:1 - - [30/Oct/2023:11:17:24 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [30/Oct/2023:11:18:46 +0530] "GET /HotelLivya_ServletApp/Login.html HTTP/1.1" 200 1320
+0:0:0:0:0:0:0:1 - - [30/Oct/2023:11:18:46 +0530] "GET /HotelLivya_ServletApp/hotel1.jpg HTTP/1.1" 200 337009

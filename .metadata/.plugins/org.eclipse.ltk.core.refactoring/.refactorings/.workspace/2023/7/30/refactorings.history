@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;advanceJava&apos; to &apos;advanceJava_july&apos;" description="Rename resource &apos;advanceJava&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/advanceJava" name="advanceJava_july" stamp="1690429985374" updateReferences="true"/>
+</session>

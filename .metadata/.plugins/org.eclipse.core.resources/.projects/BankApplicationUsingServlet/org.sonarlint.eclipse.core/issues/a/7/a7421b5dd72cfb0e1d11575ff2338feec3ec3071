@@ -1,0 +1,9 @@
+
+k	java:S106"9Replace this use of System.out or System.err by a logger.(ÅÌ»Ò8ù¸…¬1H,RMAJORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(¯è×8„Š„…¬1H,RMAJORZ
+CODE_SMELL
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(›Ş ºHÓ)RMINORZ
+CODE_SMELL
+œ
+java:S1989 "aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(î±ä·ÿÿÿÿÿ8øÃú‚¬1HØ*RMINORZVULNERABILITY

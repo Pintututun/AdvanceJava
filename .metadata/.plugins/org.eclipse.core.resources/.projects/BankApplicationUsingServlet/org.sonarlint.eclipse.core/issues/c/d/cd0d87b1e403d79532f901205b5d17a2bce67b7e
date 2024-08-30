@@ -1,0 +1,13 @@
+
+\
+java:S2140")Use "java.util.Random.nextInt()" instead.(‘ùÒõ8¥àÈ†¬1HÁ,RMINORZ
+CODE_SMELL
+—
+java:S1989"\Handle the following exception that could be thrown by "parseDouble": NumberFormatException.(æ–šøÿÿÿÿ8‚´„ƒ¬1HÜ*RMINORZVULNERABILITY
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(›Ş ºHÔ*RMINORZ
+CODE_SMELL
+œ
+java:S1989"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(î±ä·ÿÿÿÿÿ8¢ñÑ„¬1Hú+RMINORZVULNERABILITY
+b
+java:S1128"*Remove this unused import 'java.sql.Time'.(Üå»‰şÿÿÿÿ8Ò¬Ò†¬1HÇ,RMINORZ
+CODE_SMELL

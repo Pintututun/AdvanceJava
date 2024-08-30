@@ -1,0 +1,12 @@
+
+”	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ØÕ¤­ûÿÿÿÿ8²Æ™Û«1H¨)RCRITICALZ
+CODE_SMELL
+	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¤¨Ÿë8²Æ™Û«1H©)RCRITICALZ
+CODE_SMELL
+	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¦§ÉŠ8²Æ™Û«1Hª)RCRITICALZ
+CODE_SMELL
+”	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ô±ãŒûÿÿÿÿ8²Æ™Û«1H«)RCRITICALZ
+CODE_SMELL
+~
+java:S1214"CMove constants defined in this interfaces to another class or enum.(şìäıÿÿÿÿÿ8²Æ™Û«1H¬)RCRITICALZ
+CODE_SMELL

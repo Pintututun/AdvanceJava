@@ -1,0 +1,8 @@
+
+`
+java:S1066"/Merge this if statement with the enclosing one.(÷ÔŞ†üÿÿÿÿH RMAJORZ
+CODE_SMELL
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(é†­ûÿÿÿÿH¥RMINORZ
+CODE_SMELL
+{
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ÇÿíúÿÿÿÿH¦RBLOCKERZBUG

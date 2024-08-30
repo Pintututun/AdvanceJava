@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script>
+	function setOtherValues() {
+		// Get the input fields and their values
+		var cbmQuantity = document.getElementById("cbm").value;
+		var chQuantity = document.getElementById("ch").value;
+
+		// Add the quantity values as hidden input fields to the form
+		var form = document.getElementById("foodForm");
+		var cbmInput = document.createElement("input");
+		cbmInput.type = "hidden";
+		cbmInput.name = "cbm";
+		cbmInput.value = cbmQuantity;
+		form.appendChild(cbmInput);
+
+		var chInput = document.createElement("input");
+		chInput.type = "hidden";
+		chInput.name = "ch";
+		chInput.value = chQuantity;
+		form.appendChild(chInput);
+
+		// Submit the form
+		form.submit();
+	}
+</script>
+<style>
+fieldset {
+	margin: 100px auto;
+	border: 3px solid black;
+	border-radius: 20px;
+	width: 800px;
+}
+
+legend {
+	text-align: center;
+	color: white;
+	font-size: 30px;
+}
+
+tr, td {
+	text-align: centre;
+	padding: 5px;
+	font-size: 40px;
+	font-style: italic;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+	color: white;
+}
+tr td a {
+   color:white;
+    text-decoration: none; /* Remove underline from links */
+}
+
+body {
+	background-image: url("MainCourse.jpg");
+	background-size: cover;
+	background-color: rgba(255, 255, 255, 0.7);
+}
+input[type="checkbox"] {
+    width: 30px; /* Adjust the width */
+    height: 30px; /* Adjust the height */
+}
+input[type="number"] {
+    width: 70px; /* Adjust the width */
+    height: 40px; /* Adjust the height */
+    font-size: 24px; /* Adjust the font size */
+}
+#customButton {
+    width: 150px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+    font-size: 24px; /* Adjust the font size as needed */
+}
+input[type="submit"] {
+    width: 150px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+    font-size: 24px; /* Adjust the font size as needed */
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none; /* Remove button border */
+    cursor: pointer; /* Add pointer cursor on hover */
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Button background color on hover */
+}
+</style>
+</head>
+<body>
+	<form id="foodForm" action="maincourse" method="post">
+	<fieldset>
+	<legend>Main Course</legend>
+		<table>
+			<tr>
+				<td><input type="checkbox" name="food" value="cbm">Chicken Butter Masala</td>
+				<td><input type="number" name="cbm" id="cbm" min="0">Quantity</td>
+			</tr>
+			<tr>
+				<td><input type="checkbox" name="food" value="ch">Chicken hyderabadi</td>
+				<td><input type="number" name="ch" id="ch" min="0">Quantity</td>
+			</tr>
+			<tr>
+				<td>Do you want any other items</td>
+				<td><a href="javascript:void(0);" onclick="setOtherValues()"><input type="button" value="Click" id="customButton"></a></td>
+			<tr>
+				<td></td>
+				<td><input type="submit" value="Submit"></td>
+			</tr>
+		</table>
+		</fieldset>
+	</form>
+</body>
+</html>

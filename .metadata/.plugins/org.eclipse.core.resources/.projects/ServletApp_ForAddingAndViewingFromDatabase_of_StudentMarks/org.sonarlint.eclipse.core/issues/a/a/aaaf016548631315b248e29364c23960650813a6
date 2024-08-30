@@ -1,0 +1,9 @@
+
+µ
+java:S1186D"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(©ÇÿšÿÿÿÿÿH¤RCRITICALZ
+CODE_SMELL
+g
+java:S1128"4Remove this unused import 'java.text.DecimalFormat'.(¤°Ó˜8ı¬‹×£1HÖRMINORZ
+CODE_SMELL
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÚÓÚH£RMINORZ
+CODE_SMELL

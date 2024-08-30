@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+<context-param>
+<param-name>a</param-name>
+<param-value>1000</param-value>
+</context-param>
+
+<welcome-file-list>
+<welcome-file>input.html</welcome-file>
+</welcome-file-list>
+
+
+
+</web-app>

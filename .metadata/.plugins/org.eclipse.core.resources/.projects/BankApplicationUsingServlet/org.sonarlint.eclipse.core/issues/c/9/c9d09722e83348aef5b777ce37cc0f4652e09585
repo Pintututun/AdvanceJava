@@ -1,0 +1,7 @@
+
+—
+java:S1989"\Handle the following exception that could be thrown by "parseDouble": NumberFormatException.(âÛèÿÿÿÿÿ8¦•„¬1HÓ+RMINORZVULNERABILITY
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(›Ş ºHÍ+RMINORZ
+CODE_SMELL
+œ
+java:S1989"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(î±ä·ÿÿÿÿÿ8£ñÑ„¬1Hû+RMINORZVULNERABILITY

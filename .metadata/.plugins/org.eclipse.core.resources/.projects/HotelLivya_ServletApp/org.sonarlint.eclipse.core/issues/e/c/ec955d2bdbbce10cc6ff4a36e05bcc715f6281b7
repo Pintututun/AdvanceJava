@@ -1,0 +1,51 @@
+
+Y
+java:S1170"!Make this final field static too.(È³ˆñùÿÿÿÿ8Ú§ìØ­1Hğ6RMINORZ
+CODE_SMELL
+b
+java:S1128"*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ8 –Üà­1Hµ7RMINORZ
+CODE_SMELL
+Y
+java:S1170"!Make this final field static too.(Ú¼Ø€şÿÿÿÿ8ŒÁÊ¼©1Hõ6RMINORZ
+CODE_SMELL
+Y
+java:S1170"!Make this final field static too.(³á„Îøÿÿÿÿ8Ú§ìØ­1Hü6RMINORZ
+CODE_SMELL
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(é†­ûÿÿÿÿHñ6RMINORZ
+CODE_SMELL
+Y
+java:S1170"!Make this final field static too.(Ùõ±„øÿÿÿÿ8ŒÁÊ¼©1H‚7RMINORZ
+CODE_SMELL
+b
+java:S1135%"2Complete the task associated to this TODO comment.(ƒŠ® úÿÿÿÿH„7RINFOZ
+CODE_SMELL
+‘	java:S116"ZRename this field "GulabJamunPrice" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğ§±“úÿÿÿÿ8ŒÁÊ¼©1Hı6RMINORZ
+CODE_SMELL
+f
+java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8 –Üà­1H³7RMINORZ
+CODE_SMELL
+”	java:S116"]Rename this field "CrispyChickenPrice" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ú¼Ø€şÿÿÿÿ8ŒÁÊ¼©1Hø6RMINORZ
+CODE_SMELL
+‘	java:S116"ZRename this field "HyderabadiPrice" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ùõ±„øÿÿÿÿ8ŒÁÊ¼©1Hó6RMINORZ
+CODE_SMELL
+	java:S116"\Rename this field "ButterMasalaPrice" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÌÅšà8ŒÁÊ¼©1Hò6RMINORZ
+CODE_SMELL
+Š	java:S116"XRename this field "IceCreamPrice" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µ—÷±8ŒÁÊ¼©1Hù6RMINORZ
+CODE_SMELL
+T
+java:S1170"!Make this final field static too.(ÌÅšà8ŒÁÊ¼©1Hö6RMINORZ
+CODE_SMELL
+T
+java:S1170"!Make this final field static too.(ÆÃ­Ü8ŒÁÊ¼©1Hô6RMINORZ
+CODE_SMELL
+Y
+java:S1170"!Make this final field static too.(ğ§±“úÿÿÿÿ8ŒÁÊ¼©1H÷6RMINORZ
+CODE_SMELL
+Š	java:S116"XRename this field "LollypopPrice" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÆÃ­Ü8ŒÁÊ¼©1Hú6RMINORZ
+CODE_SMELL
+T
+java:S1170"!Make this final field static too.(µ—÷±8ŒÁÊ¼©1Hƒ7RMINORZ
+CODE_SMELL
+Y
+java:S1170"!Make this final field static too.(û ‰ìøÿÿÿÿ8Ú§ìØ­1Hû6RMINORZ
+CODE_SMELL

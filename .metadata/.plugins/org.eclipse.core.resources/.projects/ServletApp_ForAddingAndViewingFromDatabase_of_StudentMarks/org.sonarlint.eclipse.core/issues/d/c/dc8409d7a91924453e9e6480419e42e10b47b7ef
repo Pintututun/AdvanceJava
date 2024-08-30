@@ -1,0 +1,8 @@
+
+{
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(¹á×©ûÿÿÿÿH¡RBLOCKERZBUG
+y
+java:S1104"MMake k a static final constant or non-public and provide accessors if needed.(İ¾ŠÍHŸRMINORZ
+CODE_SMELL
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÚÓÚH RMINORZ
+CODE_SMELL

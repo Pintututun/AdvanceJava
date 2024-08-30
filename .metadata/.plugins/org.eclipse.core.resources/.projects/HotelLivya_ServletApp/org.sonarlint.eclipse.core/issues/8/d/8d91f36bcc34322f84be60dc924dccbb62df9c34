@@ -1,0 +1,11 @@
+
+
+java:S1989$"SHandle the following exception that could be thrown by "sendRedirect": IOException.(ÉàÇûÿÿÿÿ8ÉÇ®¸©1Hƒ0RMINORZVULNERABILITY
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(é†­ûÿÿÿÿH…0RMINORZ
+CODE_SMELL
+p	java:S106#"9Replace this use of System.out or System.err by a logger.(èÅ‡Ÿûÿÿÿÿ8Ïÿåº­1H¹0RMAJORZ
+CODE_SMELL
+”
+java:S1989"YHandle the following exception that could be thrown by "parseInt": NumberFormatException.(ÑõÿŠûÿÿÿÿ8ÉÇ®¸©1H‚0RMINORZVULNERABILITY
+
+java:S1989"YHandle the following exception that could be thrown by "parseInt": NumberFormatException.(šèÿ8ÉÇ®¸©1H„0RMINORZVULNERABILITY

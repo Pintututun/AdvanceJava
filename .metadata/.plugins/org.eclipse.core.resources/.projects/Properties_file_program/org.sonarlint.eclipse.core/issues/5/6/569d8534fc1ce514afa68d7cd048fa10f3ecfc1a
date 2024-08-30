@@ -1,0 +1,13 @@
+
+v
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(º©Ù£HñRBLOCKERZBUG
+u
+java:S2095""NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(¡Ö˜®HòRBLOCKERZBUG
+i	java:S106"9Replace this use of System.out or System.err by a logger.(úü„²øÿÿÿÿHóRMAJORZ
+CODE_SMELL
+d	java:S106"9Replace this use of System.out or System.err by a logger.(ªÿ€ïHôRMAJORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(œ‚éÉøÿÿÿÿHõRMAJORZ
+CODE_SMELL
+d	java:S106 "9Replace this use of System.out or System.err by a logger.(¼ÜÇþHöRMAJORZ
+CODE_SMELL

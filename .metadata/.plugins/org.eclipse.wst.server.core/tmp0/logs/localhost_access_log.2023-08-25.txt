@@ -1,0 +1,16 @@
+127.0.0.1 - - [25/Aug/2023:10:43:55 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [25/Aug/2023:10:43:56 +0530] "GET /ServletApp_ForAddingAndViewingFromDatabase_of_StudentMarks/Marks.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [25/Aug/2023:10:43:56 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [25/Aug/2023:10:45:16 +0530] "GET /ServletApp_ForAddingAndViewingFromDatabase_of_StudentMarks/Marks.html HTTP/1.1" 200 936
+0:0:0:0:0:0:0:1 - - [25/Aug/2023:10:45:26 +0530] "POST /ServletApp_ForAddingAndViewingFromDatabase_of_StudentMarks/fill HTTP/1.1" 404 818
+0:0:0:0:0:0:0:1 - - [25/Aug/2023:10:58:51 +0530] "GET /ServletApp_ForAddingAndViewingFromDatabase_of_StudentMarks/Marks.html HTTP/1.1" 200 1570
+0:0:0:0:0:0:0:1 - - [25/Aug/2023:10:59:42 +0530] "GET /ServletApp_ForAddingAndViewingFromDatabase_of_StudentMarks/Marks.html HTTP/1.1" 200 1570
+0:0:0:0:0:0:0:1 - - [25/Aug/2023:11:00:19 +0530] "GET /ServletApp_ForAddingAndViewingFromDatabase_of_StudentMarks/Marks.html HTTP/1.1" 200 1569
+0:0:0:0:0:0:0:1 - - [25/Aug/2023:11:00:20 +0530] "GET /ServletApp_ForAddingAndViewingFromDatabase_of_StudentMarks/Marks.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [25/Aug/2023:11:01:14 +0530] "GET /ServletApp_ForAddingAndViewingFromDatabase_of_StudentMarks/Marks.html HTTP/1.1" 200 1569
+0:0:0:0:0:0:0:1 - - [25/Aug/2023:11:02:09 +0530] "GET /ServletApp_ForAddingAndViewingFromDatabase_of_StudentMarks/Marks.html HTTP/1.1" 200 1565
+0:0:0:0:0:0:0:1 - - [25/Aug/2023:11:02:26 +0530] "POST /ServletApp_ForAddingAndViewingFromDatabase_of_StudentMarks/fill HTTP/1.1" 404 818
+127.0.0.1 - - [25/Aug/2023:11:31:40 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [25/Aug/2023:11:31:41 +0530] "GET /ServletApp_For_AddingAndViewingFromDatabase_Of_BookDetails/ HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [25/Aug/2023:11:31:46 +0530] "GET /ServletApp_For_AddingAndViewingFromDatabase_Of_BookDetails/Book.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [25/Aug/2023:11:32:13 +0530] "POST /ServletApp_For_AddingAndViewingFromDatabase_Of_BookDetails/add HTTP/1.1" 200 584

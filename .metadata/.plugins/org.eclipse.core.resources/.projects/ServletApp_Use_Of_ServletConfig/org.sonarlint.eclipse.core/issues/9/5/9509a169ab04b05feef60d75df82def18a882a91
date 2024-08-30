@@ -1,0 +1,7 @@
+
+
+java:S1989"YHandle the following exception that could be thrown by "parseInt": NumberFormatException.(ûÀ¨ûÿÿÿÿH™RMINORZVULNERABILITY
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‹ËşŠşÿÿÿÿH—RMINORZ
+CODE_SMELL
+„
+java:S1989"PHandle the following exception that could be thrown by "getWriter": IOException.(©Ã ûøÿÿÿÿH˜RMINORZVULNERABILITY

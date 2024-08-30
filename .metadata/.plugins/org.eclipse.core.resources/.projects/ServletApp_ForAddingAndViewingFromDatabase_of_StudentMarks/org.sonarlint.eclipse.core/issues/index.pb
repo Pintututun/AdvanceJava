@@ -1,0 +1,23 @@
+
+a
+1src/main/java/studentManagementSystem/DBInfo.java,0\f\0ffde2633f069785d6418455adbf8070f1dcc6ed
+J
+src/main/webapp/Marks.html,1\0\10fc988b33dbae0c055275c13778e8b1bce2b453
+h
+8src/main/java/studentManagementSystem/AddStudentDAO.java,d\c\dc8409d7a91924453e9e6480419e42e10b47b7ef
+l
+<src/main/java/studentManagementSystem/ViewAllStudentDAO.java,b\a\bac941e8d406ecc397db0fe4ae202c88b3cd9325
+g
+7src/main/java/studentManagementSystem/DBConnection.java,9\4\9479a0c201e3e550c77c00f12ef01a8baaabfe6a
+O
+src/main/webapp/WEB-INF/web.xml,2\e\2e22b6edd746fa3dc40ad7276c87c8d87d72a392
+l
+<src/main/java/studentManagementSystem/AddStudentServlet.java,a\a\aaaf016548631315b248e29364c23960650813a6
+f
+6src/main/java/studentManagementSystem/AddMarksDAO.java,c\e\cec8d1f4057def5e4b015bbc7c97d0dba19f58b7
+d
+4src/main/java/studentManagementSystem/MarksBean.java,d\7\d766bbd7bb26af9295d045071eba955de4110729
+f
+6src/main/java/studentManagementSystem/StudentBean.java,c\3\c34b0deacffc77cc42429e5c930eec52f4cd1600
+p
+@src/main/java/studentManagementSystem/ViewAllStudentServlet.java,8\c\8c7a00e815dfcf5fcc40328051bea6aa08caf2ef
